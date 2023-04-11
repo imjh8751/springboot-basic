@@ -1,5 +1,5 @@
 # Docker 이미지의 기반이 될 이미지를 지정합니다. OpenJDK 17 버전을 사용합니다.
-FROM openjdk:17-jdk-alpine
+FROM openjdk:17
 
 # 작업 디렉토리를 설정합니다.
 WORKDIR /app
